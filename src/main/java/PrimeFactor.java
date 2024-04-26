@@ -4,8 +4,11 @@ import java.util.List;
 
 public class PrimeFactor {
 
-    public <T> List<T> of(int i) {
-        List<T> factors = new ArrayList<>();
+    public List<Integer> of(int number) {
+        List<Integer> factors = new ArrayList<>();
+        if (number == 2) {
+            factors.add(2);
+        }
         return factors;
     }
 }
